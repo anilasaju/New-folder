@@ -1,0 +1,54 @@
+/* Appoinment page */
+body {
+  background-color: lightblue;
+}
+a {
+  text-decoration: none;
+}
+h1 {
+  color: navy;
+  text-align: center;
+}
+.border {
+  border: 1px solid gray;
+  width: 50%;
+  margin: 0 auto;
+  padding: 30px;
+  div {
+    margin: 0 0 10px 0;
+  }
+}
+label {
+  width: 55%;
+  display: inline-block;
+}
+input {
+  width: 30%
+}
+.btn-save{
+  text-align: end;
+  button {
+    background-color: green;
+    border-radius: 5px;
+    width: 15%;
+    border: 1px;
+    padding: 5px;
+    cursor: pointer;
+    margin: 10px 0 0 0;
+    a {
+      color: white;
+    }
+  }
+}
+/* list Page */
+table, th, td {
+  border: 1px solid;
+}
+table {
+  margin: 0 auto
+}
+@media screen and (max-width: 780px) {
+  body {
+    background-color: greenyellow;
+  }
+}
