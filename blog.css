@@ -1,0 +1,27 @@
+body {
+  background-color: lightblue;
+}
+.color {
+  color: navy;
+}
+h1, h2 {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+.posts {
+  a {
+    color: black;
+  }
+}
+button {
+    background-color: blue;
+    border-radius: 5px;
+    border: 1px;
+    padding: 5px 15px;
+    cursor: pointer;
+    margin: 10px 0 0 0;
+    color: white;
+
+}
